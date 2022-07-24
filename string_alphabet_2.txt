@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int i,count=0,d,p,k;
+	int c;
+	char a[50],b,j;
+	gets (a);
+
+	
+
+	for(i=0; a[i]!='\0'; i++){
+			 
+	 	 if((a[i]>='a'&& a[i]<='z') || (a[i]>='A'&& a[i]<='Z'))
+        {
+            p++;
+    }
+}
+
+cout<<"Length of string"<<p<<endl;
+
+	
+
+for(j='a' ; j<='z' ;j++)
+{
+	
+	for(i=0;i<p;i++)
+	{	
+	
+	if(j==a[i])
+	{
+		
+		count++;
+    }  
+		
+	
+}
+		cout<<j<<"= "<<count<<endl;	
+			count=0;
+	
+}
+}
+
+	
+	
+
+
+
